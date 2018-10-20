@@ -11,8 +11,8 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 function choroplethize(d) {
     return d > 236178 ? '#88419d' :
         d > 107693 ? '#8c96c6' :
-        d > 54440 ? '#b3cde3' :
-            '#edf8fb';
+            d > 54440 ? '#b3cde3' :
+                '#edf8fb';
 }
 
 // PINTAR LAS FIGURAS CON LOS COLORES
@@ -105,7 +105,7 @@ var Ventas2017_05Legend = L.control({ position: 'bottomright' });
 Ventas2017_03Legend.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0, 54440, 107693, 236178],
-        labels = ['ventas por alcadía'],
+        labels = ['Ventas por alcadía'],
         from, to;
     for (var i = 0; i < grades.length; i++) {
         from = grades[i];
@@ -119,8 +119,8 @@ Ventas2017_03Legend.onAdd = function (mymap) {
 };
 Ventas2017_04Legend.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'info legend'),
-    grades = [0, 54440, 107693, 236178],
-    labels = ['ventas por alcadía'],
+        grades = [0, 54440, 107693, 236178],
+        labels = ['ventas por alcadía'],
         from, to;
     for (var i = 0; i < grades.length; i++) {
         from = grades[i];
@@ -134,8 +134,8 @@ Ventas2017_04Legend.onAdd = function (mymap) {
 };
 Ventas2017_05Legend.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'info legend'),
-    grades = [0, 54440, 107693, 236178],
-    labels = ['ventas por alcadía'],
+        grades = [0, 54440, 107693, 236178],
+        labels = ['ventas por alcadía'],
         from, to;
     for (var i = 0; i < grades.length; i++) {
         from = grades[i];
