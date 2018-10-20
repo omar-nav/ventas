@@ -120,7 +120,7 @@ Ventas2017_03Legend.onAdd = function (mymap) {
 Ventas2017_04Legend.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0, 54440, 107693, 236178],
-        labels = ['ventas por alcadía'],
+        labels = ['Ventas por alcadía'],
         from, to;
     for (var i = 0; i < grades.length; i++) {
         from = grades[i];
@@ -132,10 +132,11 @@ Ventas2017_04Legend.onAdd = function (mymap) {
     div.innerHTML = labels.join('<br>');
     return div;
 };
+// letras mayusculas para los etiquetas
 Ventas2017_05Legend.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0, 54440, 107693, 236178],
-        labels = ['ventas por alcadía'],
+        labels = ['Ventas por alcadía'],
         from, to;
     for (var i = 0; i < grades.length; i++) {
         from = grades[i];
