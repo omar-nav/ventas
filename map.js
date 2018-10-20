@@ -104,7 +104,7 @@ var Ventas2017_05Legend = L.control({ position: 'bottomright' });
 
 Ventas2017_03Legend.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, 54440, 107693],
+        grades = [0, 54440, 107693, 236178],
         labels = ['ventas por alcadía'],
         from, to;
     for (var i = 0; i < grades.length; i++) {
@@ -119,7 +119,7 @@ Ventas2017_03Legend.onAdd = function (mymap) {
 };
 Ventas2017_04Legend.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'info legend'),
-    grades = [0, 54440, 107693],
+    grades = [0, 54440, 107693, 236178],
     labels = ['ventas por alcadía'],
         from, to;
     for (var i = 0; i < grades.length; i++) {
@@ -134,7 +134,7 @@ Ventas2017_04Legend.onAdd = function (mymap) {
 };
 Ventas2017_05Legend.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'info legend'),
-    grades = [0, 54440, 107693],
+    grades = [0, 54440, 107693, 236178],
     labels = ['ventas por alcadía'],
         from, to;
     for (var i = 0; i < grades.length; i++) {
